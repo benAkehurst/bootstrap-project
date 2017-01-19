@@ -1,0 +1,144 @@
+/* Sets the page Font via Google Fonts */
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Sets the colors of elements in the footer */
+footer {
+	background-color: #81B6D9;
+	color: white;
+}
+
+/* All the following Footer links */
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+main {
+	padding-bottom: 50px;
+}
+
+/* HOME */
+
+/* Sets the color of the first letter in the Navbar */
+.navbar-brand::first-letter {
+	color:#81B6D9;
+}
+
+/* Changes the color of "home" in the Navbar */
+#navbarHome {
+	color:#81B6D9;
+}
+
+/* Changes the color of "MyFly" in the Jumbotron */
+.jumbotronMyfly {
+	color:#81B6D9;
+}
+
+/* This is the class for each picture on the home page */
+.img-responsive {
+	width: 400px;
+	height: 225px;
+}
+
+/* Deals with the overlay of the photos on the home page */
+#textBoxName, #textBoxEmail, #textBoxDate, #textareaMessage, #divButtonWarning {
+	padding-bottom: 10px;
+}
+
+
+.londonOverlay, .barcelonaOverlay, .nycOverlay, .parisOverlay, .sydneyOverlay, .telAvivOverlay, .tokyoOverlay, .torontoOverlay{
+    display:none;
+}
+
+#lonondImg:hover .londonOverlay , #barcelonaImg:hover .barcelonaOverlay, #nycImg:hover .nycOverlay, #parisImg:hover .parisOverlay, #sydneyImg:hover .sydneyOverlay, #telAvivImg:hover .telAvivOverlay, #tokyoImg:hover .tokyoOverlay , #torontoImg:hover .torontoOverlay{
+    width:50%;
+    height:90%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    margin-left: 15px;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+    
+#londonSpan, #barcelonaSpan, #nycSpan, #parisSpan, #sydneySpan, #telAvivSpan, #tokyoSpan, #torontoSpan{
+    color: white;
+    padding-left: 15%;
+    margin-top: 80px;
+}
+
+/* ABOUT US */
+
+/* These settings deal with the gallery on about us */
+
+.gallerySlick > div > img {
+	margin: auto;
+    width: 800px;
+    height: 500px;
+}
+
+#divAboutStaffImgContainer > div {
+	float: left;
+	margin: 5px;
+}
+
+#divAboutStaffImgContainer > div > img {
+	width: 150px;
+	height: 150px;
+	border-radius: 25%;
+	border: 1px solid black;
+}
+
+/* CONTACT US */
+
+/* Sets the width of the input boxes on the contact us page */
+#textboxFullName, #userEmail, #textBoxDate {
+    width: 375px;
+}
+
+/* Sets the dimensions for the message box on the contact page */
+textarea {
+	min-width: 100%;
+	min-height: 300px;
+}
+
+/* The Jumbortron settings on the contat us page */
+
+#contactJumbotron {
+	background-color: black;
+}
+
+#contactJumbotron > .divHome {
+	width: 120px;
+	height: 50px;
+	background-color: #81B6D9;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 30px;
+	color: white;
+}
+
